@@ -10,8 +10,7 @@ function ErrorPage() {
       </section>
       <section className="right-container">
         <h4>
-          I am currently building this website to make it awesome! While I am hard
-          at work crafting something special, you can still get to know me
+          I am currently building this website to make it awesome! While I am working hard to create something special, you can still get to know me
           better
         </h4>
         
