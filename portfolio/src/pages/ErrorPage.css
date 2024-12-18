@@ -25,6 +25,7 @@
   width: 50px;
 }
 
+/*Media query*/
 @media (min-width: 1024px) {
   .error-container {
     padding: 10rem;
