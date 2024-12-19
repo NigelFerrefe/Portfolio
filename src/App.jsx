@@ -5,7 +5,7 @@ import './App.css'
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
-import ArtPage from "./pages/ArtPage";
+import ContactPage from "./pages/ContactPage";
 import ErrorPage from "./pages/ErrorPage";
 
 function App() {
@@ -14,11 +14,11 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<ErrorPage/>} />
+        <Route path="/" element={<HomePage/>} />
         <Route path="/about" element={<AboutPage/>} />
         <Route path="/projects" element={<ProjectsPage/>} />
-        <Route path="/art" element={<ArtPage/>} />
-        <Route path="*" element={<HomePage/>} />
+        <Route path="/contact" element={<ContactPage/>} />
+        <Route path="*" element={<ErrorPage/>} />
       </Routes>
     </div>
   )
