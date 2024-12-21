@@ -11,13 +11,9 @@ function Navbar() {
         </section>
         <section className="description fade-in">
           <p>
-            With a background in History and a Masters in Digital Humanities, I
-            bring the past into the future through technology.
-          </p>
-          <p>
-            My background includes a deep dive into 3D animation and interactive
-            design, and now, as a full stack developer, I combine creativity
-            with coding to shape the digital world.
+            As a Full Stack Developer with a Master’s in Digital
+            Humanities and 3D design expertise, I create dynamic, user-friendly
+            applications that blend technology and creativity.
           </p>
         </section>
       </div>

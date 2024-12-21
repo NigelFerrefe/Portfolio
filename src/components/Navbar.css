@@ -1,6 +1,7 @@
 .navbar-container {
   display: flex;
   flex-direction: column;
+ 
   gap: 4rem;
   padding: 3rem;
   width: 100%;
@@ -55,6 +56,7 @@
     }
   }
 }
+
 
 /* Animation */
 .fade-in {
