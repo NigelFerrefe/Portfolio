@@ -1,0 +1,11 @@
+/* Success Toast */
+.Toastify__toast--success {
+    background-color: var(--main-color); 
+    color: var(--background-gray);
+  }
+  
+  /* Error Toast */
+  .Toastify__toast--error {
+    background-color: var(--main-color); 
+    color: var(--background-gray);
+  }
