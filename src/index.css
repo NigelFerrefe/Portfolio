@@ -2,24 +2,29 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Inconsolata", serif;
+  --font-titles: "Noto Sans", serif;
+  --font-main: "Inconsolata", serif;
+  --main-color: #ece7e1;
+  --background-black: #232526;
+  --background-gray: #414345;
 }
 
 
 
 :root {
   min-height: 100vh;
-  color: #ece7e1;
+  color: var(--main-color);
+  font-family: var(--font-main);
   background: #232526; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #414345,
-    #232526
+    var(--background-gray),
+    var(--background-black)
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #414345,
-    #232526
+    var(--background-gray),
+    var(--background-black)
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -29,5 +34,5 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Noto Sans", serif;
+  font-family: var(--font-titles)
 }

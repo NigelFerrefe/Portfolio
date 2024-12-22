@@ -1,7 +1,6 @@
 import AboutMe from "../components/AboutMe.jsx";
 import NigelPic from "../assets/Nigel.png";
-import "./AboutPage.css"
-
+import "./AboutPage.css";
 
 function AboutPage() {
   return (
@@ -11,7 +10,12 @@ function AboutPage() {
       </section>
       <section className="header-container">
         <h3>Hey, I&apos;m Nigel</h3>
-        
+        <img
+          width={100}
+          src={NigelPic}
+          alt="pic about me"
+          className="mobile-pic"
+        />
       </section>
       <div className="description-container">
         <div className="left-section">
@@ -20,24 +24,20 @@ function AboutPage() {
           </section>
         </div>
         <div className="right-section">
-          <img width={100} src={NigelPic} alt="pic about me" />
+          {/* <img width={100} src={NigelPic} alt="pic about me" className="desktop-pic" /> */}
           <section>
-            <article>
-              <h4>Skills</h4>
-              <p>React</p>
-              <p>JavaScript</p>
-              <p>CSS</p>
-              <p>Node.js</p>
-              <p>Express.js</p>
-              <p>MongoDB</p>
-              <p>API Restful</p>
-              <p>Cypress</p>
-              <p>Git</p>
-            </article>
-          </section>
-          <section>
-            <article>
-              <button>My CV</button>
+            <h3>Skills</h3>
+            <article className="skills">
+              <p className="skill">React</p>
+              <p className="skill">JavaScript</p>
+              <p className="skill">C#</p>
+              <p className="skill">CSS</p>
+              <p className="skill">Node.js</p>
+              <p className="skill">Express.js</p>
+              <p className="skill">MongoDB</p>
+              <p className="skill">API Restful</p>
+              <p className="skill">Cypress</p>
+              <p className="skill">Git</p>
             </article>
           </section>
         </div>
