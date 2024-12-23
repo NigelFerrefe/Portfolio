@@ -5,7 +5,7 @@ function AboutMe() {
     <div className="about-container">
       <article>
         <p>
-          A junior web developer specializing in the MERN stack. With a
+          A junior web developer specialized in the MERN stack. With a
           background in Digital Humanities and advanced training in 3D animation
           and interactive design, I bring a unique blend of creativity and
           technical expertise to web development. My focus is on creating
@@ -33,7 +33,7 @@ function AboutMe() {
           revealed my passion for blending creativity with technology and
           inspired me to explore the world of programming more deeply.
         </p>
-        <button className="artstation">
+        <button className=" btn artstation">
           <a href="https://nferrefe.artstation.com/" target="_blank">
             Me as 3D artist
           </a>

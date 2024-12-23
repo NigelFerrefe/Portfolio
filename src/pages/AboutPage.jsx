@@ -1,5 +1,4 @@
 import AboutMe from "../components/AboutMe.jsx";
-import NigelPic from "../assets/Nigel.png";
 import "./AboutPage.css";
 
 function AboutPage() {
@@ -10,12 +9,7 @@ function AboutPage() {
       </section>
       <section className="header-container">
         <h3>Hey, I&apos;m Nigel</h3>
-        <img
-          width={100}
-          src={NigelPic}
-          alt="pic about me"
-          className="mobile-pic"
-        />
+
       </section>
       <div className="description-container">
         <div className="left-section">
@@ -24,7 +18,6 @@ function AboutPage() {
           </section>
         </div>
         <div className="right-section">
-          {/* <img width={100} src={NigelPic} alt="pic about me" className="desktop-pic" /> */}
           <section>
             <h3>Skills</h3>
             <article className="skills">

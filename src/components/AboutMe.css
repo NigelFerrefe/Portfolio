@@ -15,7 +15,8 @@
     }
     
 }
-.artstation {
+.btn {
+    
     margin: 1rem;
     padding: 1rem 2rem;
     border-radius: 5px;
@@ -28,9 +29,9 @@
         color: var(--background-gray);
     }
 }
-.artstation:hover {
+.btn:hover {
     background: var(--background-gray);
-    a {
+    
        color: var(--main-color);
-    }
+    cursor: pointer;
    }

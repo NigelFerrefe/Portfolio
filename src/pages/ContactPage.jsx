@@ -2,9 +2,14 @@ import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 import { useState, useEffect } from "react";
 import Toast from "../components/Toast";
+import "./ContactPage.css";
 
 function ContactPage() {
-  const { register, handleSubmit, formState: { errors } } = useForm();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
   const [errorMessage, setErrorMessage] = useState("");
   const [count, setCount] = useState(0);
   const maxLength = 500;
@@ -38,12 +43,14 @@ function ContactPage() {
       return () => clearTimeout(timer); // Clean the timeout if the component is unmounted or error changes
     }
   }, [errors.Message]);
-  
+
   return (
-    <div>
-      <h1>Contact.</h1>
-      <section>
-        <article>
+    <div className="contact-container">
+      <section className="contact-title">
+        <h1>Contact</h1>
+      </section>
+      <section className="ls-container">
+        <article className="contact-header">
           <p>
             I&apos;m open to job opportunities where I can apply my skills and
             make a meaningful impact.
@@ -54,19 +61,23 @@ function ContactPage() {
             <a href="mailto:nferrefe@gmail.com">nferrefe@gmail.com</a> !
           </p>
         </article>
-        <div>
-          <form onSubmit={handleSubmit(onSubmit)}>
-            <input
-              type="text"
-              {...register("Name", { required: true })}
-              placeholder="Name"
-            />
-            <input
-              type="email"
-              {...register("Email", { required: true })}
-              placeholder="Email"
-            />
-            <div>
+
+        <form
+          onSubmit={handleSubmit(onSubmit)}
+          className="contact-form-container"
+        >
+          <input
+            type="text"
+            {...register("Name", { required: true })}
+            placeholder="Name"
+          />
+          <input
+            type="email"
+            {...register("Email", { required: true })}
+            placeholder="Email"
+          />
+          <div>
+            <div className="textarea-wrapper">
               <textarea
                 {...register("Message", {
                   required: "Message is required",
@@ -81,15 +92,17 @@ function ContactPage() {
                 rows="10"
                 onChange={handleCount}
               ></textarea>
-              <div>
+              <p className="count-char">
                 {count}/{maxLength}
-              </div>
+              </p>
             </div>
-            {errorMessage && <p>{errorMessage}</p>} {/* Show error message */}
-            <button type="submit">Send Message</button>
-            <Toast />
-          </form>
-        </div>
+          </div>
+          {errorMessage && <p>{errorMessage}</p>}
+          <button className="btn message-btn" type="submit">
+            Send Message
+          </button>
+          <Toast />
+        </form>
       </section>
     </div>
   );
