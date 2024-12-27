@@ -5,6 +5,7 @@ import './App.css'
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
+import ProjectCard from "./components/ProjectCard";
 import ContactPage from "./pages/ContactPage";
 import ErrorPage from "./pages/ErrorPage";
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<HomePage/>} />
         <Route path="/about" element={<AboutPage/>} />
         <Route path="/projects" element={<ProjectsPage/>} />
+        <Route path="/projects/:projectId" element={<ProjectCard/>} />
         <Route path="/contact" element={<ContactPage/>} />
         <Route path="*" element={<ErrorPage/>} />
       </Routes>

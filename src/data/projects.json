@@ -1,0 +1,53 @@
+[
+  {
+    "_id": "6491f9e9f6b6d2f3e4a2a8p1",
+    "title": "Bookquest",
+    "image": "Bookquest.png",
+    "date": "November 2024",
+    "description": [
+      "This is an innovative online library platform that lets you store, track, and discover books that matter to you. Designed for passionate readers or anyone beginning their literary journey, BookQuest provides a simple yet powerful way to organize your reading life. With features like a personal library, powerful filters, and a detailed reading profile, it makes managing your literary world effortless and enjoyable.",
+      "BookQuest has been the first project that introduced the use of a SQL database through Supabase, where implemented full CRUD operations for the first time. It includes essential components like a user-friendly BookCard, BookList, and EditForm, alongside dynamic pages like Home, Profile, and About, ensuring an engaging and functional experience.",
+      "Feel free to check out the Project by visiting the Project Link."
+    ],
+    "technologies": ["Supabase", "Axios", "React", "Git"],
+    "link": "https://thebookquest.netlify.app/"
+  },
+  {
+    "_id": "6491f9e9f6b6d2f3ef5ds832p2",
+    "title": "Isibcn",
+    "image": "IsiBcn.png",
+    "date": "December 2024",
+    "description": [
+      "Isibcn is a sleek and elegant e-commerce platform designed for showcasing and selling jewelry. This project focuses on delivering a captivating user experience through a dynamic homepage featuring a hero video and a curated list of jewelry products. The site seamlessly combines functionality and aesthetics, providing users with a visually appealing and intuitive shopping experience.",
+      "Developed in collaboration with a UX/UI design team during an intensive two-day sprint, the project aimed to create a Minimum Viable Product (MVP) that highlights key features. The homepage includes a detailed Jewels List, featuring large product images, titles, prices, descriptions, and a visual representation of the creation process. Interactive elements like a quantity counter and an Add to Cart button ensure a user-friendly shopping journey.",
+      "This project offered valuable insights into working in a real-world development environment. Collaborating closely with designers to solve problems and refine solutions emphasized the importance of teamwork and adaptability. The experience of rapidly developing an MVP in just two days underscored the significance of efficient planning and execution in a fast-paced project setting.",
+      "Feel free to check out the Project by visiting the Project Link."
+    ],
+    "technologies": ["React", "Git"],
+    "link": "https://isibcn.netlify.app/"
+
+  },
+  {
+    "_id": "6491f9e9f6b6d2bka4da42f3e4a2a8p3",
+    "title": "IronHub",
+    "image": "Ironhub.png",
+    "date": "December 2024",
+    "description": [
+      "IronHub is a dedicated platform designed to bring together Ironhack students from Web Development, Data Analytics, and UX/UI courses. It serves as a space for students to share knowledge, connect with peers, and grow their skills through collaboration and discussion. Whether you’re looking to seek help, contribute to a topic, or simply connect with others, IronHub is the place to enhance your Ironhack experience.",
+      "This project was a comprehensive end-to-end solution built using the MERN stack, integrating both front-end and back-end development with full CRUD operations. Key features include user authentication with JWT, secure route protection, and a powerful post management system that allows students to create, read, update, and delete posts. Users can filter posts by course or category, search by title, and sort by date or relevance, creating an intuitive and engaging platform.",
+      "IronHub also allows for user profiles, where students can update their personal details and view posts created by them. The platform’s filtering and sorting capabilities make it easy to navigate, ensuring that users can quickly find relevant content.",
+      "Developing IronHub provided valuable insights into building a Single Page Application (SPA) from scratch, enhancing our skills in both front-end and back-end development. The project’s successful completion not only deepened our technical knowledge but also earned recognition as the best project in our bootcamp class.",
+      "Feel free to check out the Project by visiting the Project Link."
+    ],
+    "technologies": [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "bcrypt",
+      "Cloudinary",
+      "Git"
+    ],
+    "link": "https://ironhub-front.netlify.app/"
+  }
+]

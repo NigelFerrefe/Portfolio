@@ -72,8 +72,8 @@
 
 @media (min-width: 600px) {
   .contact-container {
-    display: flex;
-
+    width: 100%;
+    max-width: 1023px;
     h1 {
       text-align: center;
       font-size: 2.5rem;
@@ -97,9 +97,8 @@
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
-    height: 100vh; 
+    height: 82vh; 
     margin: 0 auto;
-
   }
   .contact-header {
     text-align: center;
