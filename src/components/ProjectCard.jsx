@@ -4,6 +4,9 @@ import bookquestImage from "../assets/projects/Bookquest.png";
 import isibcnImage from "../assets/projects/IsiBcn.png";
 import ironhubImage from "../assets/projects/Ironhub.png";
 import "./ProjectCard.css";
+import { useNavigate } from "react-router-dom";
+
+
 
 function ProjectCard() {
   const { projectId } = useParams(); // Get the projectId from the URL
@@ -18,6 +21,11 @@ function ProjectCard() {
   if (!project) {
     return <p>Project not found!</p>; // Display an error if no project is found
   }
+  const navigate = useNavigate();
+  const handleNavigate = () => {
+    window.scrollTo(0, 0);
+    navigate("/projects");
+  };
 
   return (
     <div className="card-main-container">
@@ -54,6 +62,7 @@ function ProjectCard() {
               <a href={project.link} target="_blank" className="btn">
                 Project link
               </a>
+              <button onClick={handleNavigate} className="secondary-btn"><p>Go Back</p></button>
             </div>
           </div>
         </div>

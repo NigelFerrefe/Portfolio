@@ -63,3 +63,60 @@ textarea {
     color: var(--main-color);
   }
 }
+
+.secondary-btn {
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: 1px solid var(--main-color);
+  font-weight: 400;
+  letter-spacing: 1px;
+  background: transparent;
+  p {
+    text-decoration: none;
+    color: var(--main-color);
+  }
+}
+.secondary-btn:hover {
+  background: var(--main-color);
+  p {
+    color: var(--background-black);
+  }
+}
+
+
+
+.next {
+  button {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+    p {
+      color: var(--main-color);
+    }
+    img {
+      width: 25px;
+      animation: move-arrow 0.5s infinite alternate;
+    }
+  }
+}
+
+.next:hover {
+  p {
+    text-decoration: underline;
+  }
+}
+
+@keyframes move-arrow {
+  0% {
+    transform: translateX(0); 
+  }
+  100% {
+    transform: translateX(5px); 
+  }
+}

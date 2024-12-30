@@ -20,9 +20,10 @@
   gap: 1rem;
   text-align: start;
 
-  a {
+  #mail {
     color: var(--main-color);
     text-decoration: none;
+    border: none;
   }
 }
 

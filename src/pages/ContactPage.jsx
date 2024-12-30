@@ -2,6 +2,7 @@ import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 import { useState, useEffect } from "react";
 import Toast from "../components/Toast";
+import Navigation from "../components/Navigation";
 import "./ContactPage.css";
 
 function ContactPage() {
@@ -45,66 +46,72 @@ function ContactPage() {
   }, [errors.Message]);
 
   return (
-    <div className="contact-container">
-      <section className="contact-title">
-        <h1>Contact</h1>
-      </section>
-      <section className="ls-container">
-        <article className="contact-header">
-          <p>
-            I&apos;m open to job opportunities where I can apply my skills and
-            make a meaningful impact.
-          </p>
-          <p>
-            If you have a role that aligns with my skills, feel free to talk
-            with me or contact me to{" "}
-            <a href="mailto:nferrefe@gmail.com">nferrefe@gmail.com</a> !
-          </p>
-        </article>
+    <>
+    <Navigation />
+      <div className="contact-container">
+        <section className="contact-title">
+          <h1>Contact</h1>
+        </section>
+        <section className="ls-container">
+          <article className="contact-header">
+            <p>
+              I&apos;m open to job opportunities where I can apply my skills and
+              make a meaningful impact.
+            </p>
+            <p>
+              If you have a role that aligns with my skills, feel free to talk
+              with me or contact me to{" "}
+              <a id="mail" href="mailto:nferrefe@gmail.com">
+                nferrefe@gmail.com
+              </a>{" "}
+              !
+            </p>
+          </article>
 
-        <form
-          onSubmit={handleSubmit(onSubmit)}
-          className="contact-form-container"
-        >
-          <input
-            type="text"
-            {...register("Name", { required: true })}
-            placeholder="Name"
-          />
-          <input
-            type="email"
-            {...register("Email", { required: true })}
-            placeholder="Email"
-          />
-          <div>
-            <div className="textarea-wrapper">
-              <textarea
-                {...register("Message", {
-                  required: "Message is required",
-                  minLength: {
-                    value: 20,
-                    message: "Message must be at least 20 characters",
-                  },
-                  maxLength: maxLength,
-                })}
-                placeholder="Message must be at least 20 characters"
-                cols="30"
-                rows="10"
-                onChange={handleCount}
-              ></textarea>
-              <p className="count-char">
-                {count}/{maxLength}
-              </p>
+          <form
+            onSubmit={handleSubmit(onSubmit)}
+            className="contact-form-container"
+          >
+            <input
+              type="text"
+              {...register("Name", { required: true })}
+              placeholder="Name"
+            />
+            <input
+              type="email"
+              {...register("Email", { required: true })}
+              placeholder="Email"
+            />
+            <div>
+              <div className="textarea-wrapper">
+                <textarea
+                  {...register("Message", {
+                    required: "Message is required",
+                    minLength: {
+                      value: 20,
+                      message: "Message must be at least 20 characters",
+                    },
+                    maxLength: maxLength,
+                  })}
+                  placeholder="Message must be at least 20 characters"
+                  cols="30"
+                  rows="10"
+                  onChange={handleCount}
+                ></textarea>
+                <p className="count-char">
+                  {count}/{maxLength}
+                </p>
+              </div>
             </div>
-          </div>
-          {errorMessage && <p>{errorMessage}</p>}
-          <button className="btn message-btn" type="submit">
-            Send Message
-          </button>
-          <Toast />
-        </form>
-      </section>
-    </div>
+            {errorMessage && <p>{errorMessage}</p>}
+            <button className="btn message-btn" type="submit">
+              Send Message
+            </button>
+            <Toast />
+          </form>
+        </section>
+      </div>
+    </>
   );
 }
 
