@@ -16,46 +16,45 @@ function AboutMe() {
       <article>
         <h4>The road so far</h4>
         <p>
-          My interest in history led me to pursue a degree focused on the
-          classical era, which ignited my passion for preserving and sharing
-          historical knowledge in new ways. This journey led me to complete a
-          Master&apos;s in Digital Humanities, where I discovered the power of
-          technology in transforming how we engage with the past. During this
-          time, I developed foundational skills in web development, including
-          HTML, CSS, SQL, and database management, arousing my interest in
-          creating digital solutions.
+          My passion for history and technology led me to pursue a degree in
+          History and a Master degree in Digital Humanities, where I explored
+          how technology transforms our relationship with the past. During the
+          pandemic, I expanded my skills through 3D modeling, creating
+          environments for historical reconstructions and games. These
+          experiences, combined with basic knowledge in web development, C#, and
+          UX/UI design, sparked my passion for combining creativity with
+          technology to develop innovative digital solutions.
         </p>
-        <p>
-          During the pandemic, I delved into 3D modeling, designing realistic
-          environments for historical reconstructions and games. This hands-on
-          work allowed me to expand my skill set, including programming with C#,
-          audiovisual post-production, and UX/UI design. These experiences
-          revealed my passion for blending creativity with technology and
-          inspired me to explore the world of programming more deeply.
-        </p>
-        <button className=" btn artstation">
+        <br />
+        {/* <button className=" btn artstation">
           <a href="https://nferrefe.artstation.com/" target="_blank">
             Me as 3D artist
           </a>
-        </button>
+        </button> */}
         <p>
-          Motivated by what I had learned and eager to pursue a career I truly
-          enjoyed, I decided to shift paths and completed an intensive web
-          development bootcamp at Ironhack. Over 400 hours of hands-on learning,
-          I mastered the MERN stack and built dynamic, user-centered
-          applications, solidifying my commitment to combining design and
-          technology in impactful ways.
+          Driven by a desire to channel my creativity and technical skills into
+          a fulfilling career, I decided to transition into web development. To
+          achieve this, I completed Ironhack intensive web development
+          bootcamp, dedicating over 400 hours to mastering the MERN stack. I
+          focused on front-end development with React and JavaScript, creating
+          interactive and responsive user interfaces. On the back-end, I gained
+          experience building RESTful APIs, managing databases with MongoDB, and
+          implementing server-side logic with Node.js and collaborative
+          workflows. This immersive experience deepened my understanding of
+          modern web development and confirmed my passion for crafting
+          functional and engaging applications.
         </p>
       </article>
       <article>
         <h4>Future goals</h4>
         <p>
-          As a junior web developer, I&apos;m eager to continue growing and
-          refining my craft. I’m excited to explore new tools, tackle
-          challenging projects, and create digital products that make a
-          meaningful difference. With a constant drive for curiosity and
-          innovation, my mission is to bridge the gap between design and
-          technology to deliver digital experiences that inspire and connect.
+          As a junior web developer, I’m eager to grow both personally and
+          professionally. With curiosity and a humble attitude toward learning,
+          I’m driven to explore new tools, embrace challenges, and continuously
+          expand my knowledge. I take initiative and work independently, while
+          remaining open to feedback and collaboration. My goal is to contribute
+          to building efficient, user-friendly applications while continuing to
+          enhance my skills in modern web technologies.
         </p>
       </article>
     </div>

@@ -17,7 +17,7 @@ function AboutPage() {
           <h1>About</h1>
         </section>
         <section className="header-container">
-          <h3>Hey, I&apos;m Nigel</h3>
+          <h3 >Hey, I&apos;m Nigel</h3>
         </section>
         <div className="description-container">
           <div className="left-section">

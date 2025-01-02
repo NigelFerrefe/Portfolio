@@ -17,9 +17,9 @@
 .header-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding-top: 2rem;
+
 }
 
 .description-container {
@@ -49,14 +49,14 @@
   }
   .skill {
     width: fit-content;
-    padding: 0.8rem 1.5rem;
+    padding: 0.5rem 1rem;
     margin-bottom: 1rem;
     margin-right: 1rem;
     font-size: 1rem;
     background: var(--main-color);
     color: var(--background-gray);
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 
@@ -74,6 +74,7 @@
   h3 {
     font-size: 1.4rem;
   }
+
 
 }
 

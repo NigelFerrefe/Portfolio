@@ -19,7 +19,7 @@
 .projects-container {
   list-style: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
 }
 
 .projects-items {

@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   --font-titles: "Noto Sans", serif;
-  --font-main: "Inconsolata", serif;
+  --font-main: "Roboto", serif;
   --main-color: #ece7e1;
   --background-black: #232526;
   --background-gray: #414345;
@@ -44,12 +44,11 @@ textarea {
   letter-spacing: 1px;
 }
 
-.btn {
-  margin: 1rem;
-  padding: 1rem 2rem;
+.main-btn {
+  margin: 10px;
+  padding: 10px;
   border-radius: 5px;
   border: 1px solid var(--background-black);
-  font-weight: 400;
   letter-spacing: 1px;
   background: var(--main-color);
   a {
@@ -57,7 +56,7 @@ textarea {
     color: var(--background-gray);
   }
 }
-.btn:hover {
+.main-btn:hover {
   background: var(--background-gray);
   a {
     color: var(--main-color);
@@ -65,8 +64,8 @@ textarea {
 }
 
 .secondary-btn {
-  margin: 1rem;
-  padding: 1rem 2rem;
+  margin: 10px;
+  padding: 10px;
   border-radius: 5px;
   border: 1px solid var(--main-color);
   font-weight: 400;
@@ -120,3 +119,4 @@ textarea {
     transform: translateX(5px); 
   }
 }
+

@@ -7,11 +7,11 @@ function Navbar() {
     <>
       <div className="navbar-container">
         <div className="text-container">
-          <section className="title fade-in">
+          <section className="title">
             <h3>Nigel Ferreres</h3>
             <p>Full Stack Developer</p>
           </section>
-          <section className="description fade-in">
+          <section className="description">
             <p>
               As a Full Stack Developer with a Master’s in Digital Humanities
               and 3D design expertise, I create dynamic, user-friendly
@@ -19,7 +19,7 @@ function Navbar() {
             </p>
           </section>
         </div>
-        <section className="nav-links fade-in">
+        <section className="nav-links">
           <Link to="/about" className="nav-link">
             <h1 data-name="About">About</h1>
           </Link>

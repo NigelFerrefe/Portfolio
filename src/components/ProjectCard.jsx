@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 
 
 function ProjectCard() {
-  const { projectId } = useParams(); // Get the projectId from the URL
+  const { projectId } = useParams(); 
   const imageMap = {
     "Bookquest.png": bookquestImage,
     "IsiBcn.png": isibcnImage,
@@ -19,8 +19,9 @@ function ProjectCard() {
   const project = projectsData.find((p) => p._id === projectId);
 
   if (!project) {
-    return <p>Project not found!</p>; // Display an error if no project is found
+    return <p>Project not found!</p>; // Display error if no project is found
   }
+  
   const navigate = useNavigate();
   const handleNavigate = () => {
     window.scrollTo(0, 0);
@@ -33,7 +34,7 @@ function ProjectCard() {
       <section className="card-container">
         <div className="live-link">
           <h3>See live:</h3>
-          <a href={project.link} target="_blank" className="btn">
+          <a href={project.link} target="_blank" className="main-btn">
             Project link
           </a>
         </div>
@@ -59,7 +60,7 @@ function ProjectCard() {
             </div>
             <div className="live-link">
               <h3>See live:</h3>
-              <a href={project.link} target="_blank" className="btn">
+              <a href={project.link} target="_blank" className="main-btn">
                 Project link
               </a>
               <button onClick={handleNavigate} className="secondary-btn"><p>Go Back</p></button>

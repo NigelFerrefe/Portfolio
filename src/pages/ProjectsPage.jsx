@@ -45,7 +45,7 @@ function ProjectsPage() {
                 <img src={imageMap[project.image]} alt={project.title} />
                 <div className="info">
                   <h3>{project.title}</h3>
-                  <Link to={`/projects/${project._id}`} className="btn">
+                  <Link to={`/projects/${project._id}`} className="main-btn">
                     View Case Study
                   </Link>
                 </div>
