@@ -24,7 +24,7 @@ function ProjectsPage() {
   const navigate = useNavigate();
   const handleNavigate = () => {
     window.scrollTo(0, 0);
-    navigate("/contact");
+    navigate("/resume");
   };
   return (
     <>
@@ -55,7 +55,7 @@ function ProjectsPage() {
         </section>
         <section className="next">
           <button onClick={handleNavigate}>
-            <p>Ready to work together?</p>
+            <p>Check my Resume</p>
             <img src={arrow} alt="white arrow" />
           </button>
         </section>

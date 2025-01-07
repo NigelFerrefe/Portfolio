@@ -13,7 +13,7 @@ function Navbar() {
           </section>
           <section className="description">
             <p>
-              As a Full Stack Developer with a Master’s in Digital Humanities
+              As a <span className="color">Full Stack Developer</span> with a Master’s in Digital Humanities
               and 3D design expertise, I create dynamic, user-friendly
               applications that blend technology and creativity.
             </p>
@@ -25,6 +25,9 @@ function Navbar() {
           </Link>
           <Link to="/projects" className="nav-link">
             <h1 data-name="Projects">Projects</h1>
+          </Link>
+          <Link to="/resume" className="nav-link">
+            <h1 data-name="Resume">Resume</h1>
           </Link>
           <Link to="/contact" className="nav-link">
             <h1 data-name="Contact">Contact</h1>
