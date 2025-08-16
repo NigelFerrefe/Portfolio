@@ -23,7 +23,7 @@ function AboutMe() {
           dedicated over 400 hours to mastering the MERN stack, I built
           interactive applications with React, JavaScript, and Node.js, and
           gained experience with MongoDB and RESTful APIs. More recently, I
-          worked for six months as a{" "}
+          worked as a{" "}
           <span className="color">Front-end React Native Developer</span>,
           collaborating closely with UX/UI and backend teams. This role allowed
           me to strengthen my ability to deliver responsive mobile applications,
