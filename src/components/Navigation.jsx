@@ -15,7 +15,7 @@ function Navigation() {
       </section>
       <section className="social-links">
         <a
-          href="https://www.linkedin.com/in/nigel-ferreres-f%C3%A9lix/"
+          href="https://www.linkedin.com/in/nigel-ferreres-felix/"
           target="_blank"
         >
           <p>LI</p>

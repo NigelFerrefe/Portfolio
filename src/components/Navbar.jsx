@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-
 function Navbar() {
   return (
     <>
@@ -13,9 +12,10 @@ function Navbar() {
           </section>
           <section className="description">
             <p>
-              As a <span className="color">Full Stack Developer</span> with a Master’s in Digital Humanities
-              and 3D design expertise, I create dynamic, user-friendly
-              applications that blend technology and creativity.
+              As a <span className="color">Full Stack Developer</span> with a
+              strong focus on frontend, I build efficient, user-friendly
+              applications while continuously expanding my technical skills and
+              embracing new tools and challenges.
             </p>
           </section>
         </div>
@@ -34,7 +34,6 @@ function Navbar() {
           </Link>
         </section>
       </div>
-
     </>
   );
 }
