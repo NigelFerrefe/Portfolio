@@ -14,10 +14,7 @@ function AboutPage() {
       <Navigation />
       <div className="about-main-container">
         <section className="page-title">
-          <h1>About</h1>
-        </section>
-        <section className="header-container">
-          <h3>Hello there</h3>
+          <h1>Hello there!</h1>
         </section>
         <div className="description-container">
           <div className="left-section">
